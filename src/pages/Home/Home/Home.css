@@ -1,0 +1,237 @@
+/* ---------------------------------------------------------------------------------------- */
+/* NOSOTROS */
+/* ---------------------------------------------------------------------------------------- */
+
+#nosotros {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 65px;
+}
+
+.container-nosotros {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.container-nosotros h2 {
+	font-size: 30px;
+	color: var(--primary-color);
+	padding-bottom: 50px;
+}
+
+.cover-nosotros {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.cover-nosotros img {
+	width: 400px;
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.cover-texto {
+	color: var(--dark-color);
+	width: 450px;
+	background-color: rgb(164, 144, 120, 0.2);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ÁREAS DE PRACTICA */
+/* ---------------------------------------------------------------------------------------- */
+
+#áreas-de-práctica {
+	display: flex;
+	justify-content: center;
+}
+
+.container-areas {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1000px;
+	height: 100vh;
+}
+
+.container-areas h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	color: var(--primary-color);
+	padding-bottom: 40px;
+}
+
+.cards-areas {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card-area {
+	height: 250px;
+	width: 200px;
+	padding: 30px;
+	border-radius: 20px;
+
+	position: relative;
+	background-color: rgb(164, 144, 120, 0.2);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-area ul {
+	padding-left: 15px;
+}
+
+.card-area li {
+	color: var(--primary-color);
+}
+
+.card-area h3 {
+	color: var(--primary-color);
+	padding-bottom: 10px;
+}
+
+.mas-info {
+	position: absolute;
+	bottom: 10%;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.mas-info hr {
+	border: 1px solid var(--fifth-color);
+}
+
+.mas-info:hover {
+	background-color: var(--fourth-color);
+}
+
+.card-area a {
+	font-weight: 600;
+	color: var(--fifth-color);
+	text-decoration: none;
+}
+
+.icono {
+	display: flex;
+	justify-content: center;
+}
+
+.icono img {
+	width: 40px;
+	padding-bottom: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* SERVICIOS */
+/* ---------------------------------------------------------------------------------------- */
+
+#servicios {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.container-servicios {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	height: 300px;
+	width: 100%;
+
+	background-color: var(--fourth-color);
+}
+
+.container-servicios h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	padding-bottom: 40px;
+	color: var(--fifth-color);
+}
+
+.cards-servicios {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-servicios {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 110px;
+	width: 200px;
+	padding: 30px;
+	background-color: rgba(214, 209, 189, 0.5);
+}
+
+.card-servicios li {
+	color: var(--primary-color);
+}
+
+.card-servicios h3 {
+	padding-bottom: 10px;
+	color: var(--primary-color);
+}
+
+.disponibilidad {
+	border-radius: 20px 0px 0px 20px;
+}
+
+.disponibilidad-img::before {
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5px;
+	background-image: url('../../../assets/disponibilidad.png');
+	background-size: cover;
+}
+
+.expedientes {
+	margin: 0px 2px;
+}
+
+.expedientes-img::before {
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5px;
+	background-image: url('../../../assets/expedientes.png');
+	background-size: cover;
+}
+
+.pagos {
+	border-radius: 0px 20px 20px 0px;
+}
+
+.pagos-img::before {
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5px;
+	background-image: url('../../../assets/pagos.png');
+	background-size: cover;
+}

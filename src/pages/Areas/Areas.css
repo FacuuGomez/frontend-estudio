@@ -1,0 +1,64 @@
+.cover_areas {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.cover_boxes {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.cover_boxes h2 {
+	display: flex;
+	justify-content: center;
+	color: var(--fourth-color);
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.cover_boxes h3 {
+	color: var(--primary-color);
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.cover_info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.cover_info img {
+	width: 400px;
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+}
+
+.cover_text {
+	background-color: rgb(164, 144, 120, 0.2);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	border-radius: 20px;
+	color: var(--dark-color);
+	width: 450px;
+}
+
+#laboral h3 {
+	display: flex;
+	justify-content: center;
+}
+
+#familia img {
+	width: 300px;
+}

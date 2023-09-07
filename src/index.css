@@ -1,0 +1,19 @@
+:root {
+	--dark-color: #38574c;
+	--primary-color: #4e7a6b; /* font & border */
+	--secundary-color: #8dab93; /* background */
+	--third-color: #eee8d2; /* font light */
+	--fourth-color: #a49078; /* font & border */
+	--fifth-color: #d6d1bd; /* background */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: 'Roboto';
+}
+
+body {
+	background-color: var(--fifth-color);
+}
