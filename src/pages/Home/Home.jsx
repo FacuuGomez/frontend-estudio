@@ -6,6 +6,8 @@ import Banner from '../../components/Banner/Banner.jsx';
 import Contact from '../../components/Contact/Contact.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 
+import team_work from '../../../assets/team-work.svg';
+
 import './Home.css';
 
 export default function Home() {
@@ -40,23 +42,27 @@ export default function Home() {
 						<div className='cover-nosotros'>
 							<div className='cover-texto'>
 								<p>
-									Nuestro estudio ofrece asesoramiento y
-									patrocinio jurídico desde el año 2001 en distintas ramas del derecho.
+									Nuestro estudio ofrece asesoramiento y patrocinio jurídico
+									desde el año 2001 en distintas ramas del derecho.
 								</p>
 								<p>
-									Conformamos un equipo que le brindará el asesoramiento que usted requiera según sus necesidades y objetivos, ofreciendo ante todo una atención personalizada y honorarios razonables.
-
+									Conformamos un equipo que le brindará el asesoramiento que
+									usted requiera según sus necesidades y objetivos, ofreciendo
+									ante todo una atención personalizada y honorarios razonables.
 								</p>
-								<p>En la Provincia de Bs. As. nuesrtas oficinas se encuentran en Arieta N°2809, Primer Piso de San Justo, a cargo de los
-									Dres. Estrella Martínez, Olga Ojeda y Carlos
-									Gómez Ibarlucea.</p>
+								<p>
+									En la Provincia de Bs. As. nuesrtas oficinas se encuentran en
+									Arieta N°2809, Primer Piso de San Justo, a cargo de los Dres.
+									Estrella Martínez, Olga Ojeda y Carlos Gómez Ibarlucea.
+								</p>
 								<p>
 									Desde el año 2016 nos acompaña desde La Pampa la Dra. Gabriela
-									Forte con oficinas en Calle 26 N°545 de General Pico y Bv. 25 de Mayo N°101 de Quemú-Quemú.
+									Forte con oficinas en Calle 26 N°545 de General Pico y Bv. 25
+									de Mayo N°101 de Quemú-Quemú.
 								</p>
 							</div>
 
-							<img src='../../../assets/team-work.svg' alt='team-work' />
+							<img src={team_work} alt='team-work' />
 						</div>
 					</div>
 				</section>
@@ -115,7 +121,7 @@ export default function Home() {
 								</div>
 
 								<h3>Cuestiones de familia</h3>
- 		
+
 								<ul>
 									<li>Divorcios</li>
 									<li>Cuidado personal/régimen de comunicación</li>
@@ -137,7 +143,7 @@ export default function Home() {
 								</div>
 
 								<h3>Derecho civil y comercial</h3>
- 		
+
 								<ul>
 									<li>Sucesiones</li>
 									<li>Accidentes de tránsito</li>
