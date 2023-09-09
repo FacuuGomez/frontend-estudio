@@ -142,7 +142,7 @@ export default function footer() {
 			</div>
 
 			<div className='last_line'>
-				<p>Estudio Jurídico Martinez • Ojeda • Gómez Ibarlucea © 2023</p>
+				<p>© 2023 • Estudio Jurídico Martinez • Ojeda • Gómez Ibarlucea</p>
 			</div>
 		</footer>
 	);

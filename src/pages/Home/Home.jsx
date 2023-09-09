@@ -6,10 +6,10 @@ import Banner from '../../components/Banner/Banner.jsx';
 import Contact from '../../components/Contact/Contact.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 
-import team_work from '../../../assets/team-work.svg';
-import martillo from '../../../assets/martillo.png';
-import balanza from '../../../assets/balanza.png';
-import anillos from '../../../assets/anillos-de-boda.png';
+import team_work_img from '../../../assets/team-work.svg';
+import martillo_img from '../../../assets/martillo.png';
+import balanza_img from '../../../assets/balanza.png';
+import anillos_img from '../../../assets/anillos-de-boda.png';
 
 import './Home.css';
 
@@ -65,7 +65,7 @@ export default function Home() {
 								</p>
 							</div>
 
-							<img src={team_work} alt='team-work' />
+							<img src={team_work_img} alt='team-work' />
 						</div>
 					</div>
 				</section>
@@ -79,7 +79,7 @@ export default function Home() {
 						<div className='cards-areas'>
 							<div className='card-area penal'>
 								<div className='icono'>
-									<img src={martillo} alt='martillo' />
+									<img src={martillo_img} alt='martillo' />
 								</div>
 
 								<h3>Derecho Penal</h3>
@@ -99,7 +99,7 @@ export default function Home() {
 
 							<div className='card-area laboral'>
 								<div className='icono'>
-									<img src={balanza} alt='balanza' />
+									<img src={balanza_img} alt='balanza' />
 								</div>
 								<h3>Derecho Laboral</h3>
 
@@ -117,10 +117,7 @@ export default function Home() {
 
 							<div className='card-area familia'>
 								<div className='icono'>
-									<img
-										src='../../../assets/anillos-de-boda.png'
-										alt='anillos'
-									/>
+									<img src={anillos_img} alt='anillos' />
 								</div>
 
 								<h3>Cuestiones de familia</h3>
@@ -139,7 +136,7 @@ export default function Home() {
 
 							<div className='card-area civil'>
 								<div className='icono'>
-									<img src={anillos} alt='anillos' />
+									<img src={anillos_img} alt='anillos' />
 								</div>
 
 								<h3>Derecho civil y comercial</h3>

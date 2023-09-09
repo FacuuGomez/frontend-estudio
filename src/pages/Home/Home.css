@@ -41,7 +41,7 @@
 	width: 450px;
 	background-color: rgb(164, 144, 120, 0.2);
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-	padding: 20px;
+	padding: 25px;
 	border-radius: 20px;
 }
 
@@ -52,6 +52,7 @@
 #áreas-de-práctica {
 	display: flex;
 	justify-content: center;
+	height: 100%;
 }
 
 .container-areas {
@@ -60,7 +61,7 @@
 	flex-direction: column;
 	width: 100%;
 	max-width: 1000px;
-	height: 100vh;
+	height: 100%;
 }
 
 .container-areas h2 {
@@ -68,17 +69,20 @@
 	justify-content: center;
 	font-size: 30px;
 	color: var(--primary-color);
-	padding-bottom: 40px;
+	padding-top: 100px;
+	padding-bottom: 30px;
 }
 
 .cards-areas {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .card-area {
 	height: 250px;
 	width: 200px;
+	margin: 20px;
 	padding: 30px;
 	border-radius: 20px;
 
