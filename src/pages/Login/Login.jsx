@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import logo_dark from '../../../assets/logo-final-dark.png';
+
 import './Login.css';
 
 export default function Login() {
@@ -20,10 +22,7 @@ export default function Login() {
 		<div className='container_login'>
 			<div className='cover_login'>
 				<div className='box img_box'>
-					<img
-						src='../../../assets/logo-final-dark.png'
-						alt='estudio-juridico'
-					/>
+					<img src={logo_dark} alt='estudio-juridico' />
 				</div>
 
 				<div className='box info_box'>

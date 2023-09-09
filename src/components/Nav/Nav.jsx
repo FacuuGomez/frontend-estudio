@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
+import logo_light from '../../../assets/logo-estudio-light.png';
+import user_light from '../../../assets/user-icon-light.png';
+
 import './Nav.css';
 
 export default function Nav() {
@@ -36,7 +39,7 @@ export default function Nav() {
 				<div className='cover-nav'>
 					<div className='cover-logo'>
 						<Link to='/'>
-							<img src='../../../assets/logo-estudio-light.png' alt='logo' />
+							<img src={logo_light} alt='logo' />
 						</Link>
 					</div>
 
@@ -60,7 +63,7 @@ export default function Nav() {
 
 							<li className='user-icon'>
 								<Link to='/login'>
-									<img src='../../../assets/user-icon-light.png' alt='user' />
+									<img src={user_light} alt='user' />
 								</Link>
 							</li>
 						</ul>
@@ -70,7 +73,7 @@ export default function Nav() {
 				<div className='cover-nav'>
 					<div className='cover-logo'>
 						<a href='#'>
-							<img src='../../../assets/logo-estudio-light.png' alt='logo' />
+							<img src={logo_light} alt='logo' />
 						</a>
 					</div>
 
@@ -102,7 +105,7 @@ export default function Nav() {
 							</li>
 							<li className='user-icon'>
 								<Link to='/login'>
-									<img src='../../../assets/user-icon-light.png' alt='user' />
+									<img src={user_light} alt='user' />
 								</Link>
 							</li>
 						</ul>

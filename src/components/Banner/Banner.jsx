@@ -1,26 +1,26 @@
 import React from 'react';
 
+import balanza_img from '../../../assets/balanza-justicia2.jpg';
+import apellidos_img from '../../../assets/logo-estudio-apellidos-light.png';
+import phone_light_img from '../../../assets/phone-icon-light.png';
+import email_light_img from '../../../assets/email-icon-light.png';
+import whatsapp_light_img from '../../../assets/whatsapp-icon-light.png';
+
 import './Banner.css';
 
 export default function Banner() {
 	return (
 		<section>
 			<div className='container-home'>
-				<img src='../../../assets/balanza-justicia2.jpg' alt='balanza' />
+				<img src={balanza_img} alt='balanza' />
 
 				<div className='cover-home'>
-					<img
-						src='../../../assets/logo-estudio-apellidos-light.png'
-						alt='apellidos'
-					/>
+					<img src={apellidos_img} alt='apellidos' />
 
 					<div className='contactanos'>
 						<ul>
 							<li>
-								<img
-									src='../../../assets/phone-icon-light.png'
-									alt='telefono'
-								/>
+								<img src={phone_light_img} alt='telefono' />
 								4441-8678
 							</li>
 							<li>
@@ -29,7 +29,7 @@ export default function Banner() {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<img src='../../../assets/email-icon-light.png' alt='email' />
+									<img src={email_light_img} alt='email' />
 									martinezojedayasoc@gmail.com
 								</a>
 							</li>
@@ -40,10 +40,7 @@ export default function Banner() {
 									target='_blank'
 									title='Whatsapp'
 								>
-									<img
-										src='../../../assets/whatsapp-icon-light.png'
-										alt='whatsapp'
-									/>
+									<img src={whatsapp_light_img} alt='whatsapp' />
 									whatsapp
 								</a>
 							</li>

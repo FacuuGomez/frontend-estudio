@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
 
+import contactos_img from '../../../assets/contactos.png';
+import phone_green_img from '../../../assets/phone-icon-green.png';
+import email_green_img from '../../../assets/email-icon-green.png';
+import whatsapp_green_img from '../../../assets/whatsapp-icon-green.png';
+import reloj_img from '../../../assets/reloj.png';
+import seguir_img from '../../../assets/seguir.png';
+import facebook_img from '../../../assets/facebook-icono.png';
+import instagram_img from '../../../assets/instagram-icono.png';
+
 import './Contact.css';
 
 export default function Contact() {
@@ -36,13 +45,13 @@ export default function Contact() {
 					<div className='cover-datos'>
 						<div className='contactos'>
 							<div className='title-img'>
-								<img src='../../../assets/contactos.png' alt='contactos' />
+								<img src={contactos_img} alt='contactos' />
 								<h3>Medios de contacto</h3>
 							</div>
 
 							<ul>
 								<li>
-									<img src='../../../assets/phone-icon-green.png' alt='phone' />
+									<img src={phone_green_img} alt='phone' />
 									4441 - 8678
 								</li>
 								<li>
@@ -51,10 +60,7 @@ export default function Contact() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<img
-											src='../../../assets/email-icon-green.png'
-											alt='email'
-										/>
+										<img src={email_green_img} alt='email' />
 										martinezojedayasoc@gmail.com
 									</a>
 								</li>
@@ -64,10 +70,7 @@ export default function Contact() {
 										target='_blank'
 										title='Whatsapp'
 									>
-										<img
-											src='../../../assets/whatsapp-icon-green.png'
-											alt='whatsapp-green'
-										/>
+										<img src={whatsapp_green_img} alt='whatsapp-green' />
 										whatsapp
 									</a>
 								</li>
@@ -76,7 +79,7 @@ export default function Contact() {
 
 						<div className='horarios'>
 							<div className='title-img'>
-								<img src='../../../assets/reloj.png' alt='reloj' />
+								<img src={reloj_img} alt='reloj' />
 
 								<h3>Nuestro horario</h3>
 							</div>
@@ -86,7 +89,7 @@ export default function Contact() {
 						</div>
 						<div className='redes'>
 							<div className='title-img'>
-								<img src='../../../assets/seguir.png' alt='redes' />
+								<img src={seguir_img} alt='redes' />
 
 								<h3>Seguinos</h3>
 							</div>
@@ -97,10 +100,7 @@ export default function Contact() {
 										target='_blank'
 										title='Facebook'
 									>
-										<img
-											src='../../../assets/facebook-icono.png'
-											alt='Facebook'
-										/>
+										<img src={facebook_img} alt='Facebook' />
 										Facebook
 									</a>
 								</li>
@@ -110,10 +110,7 @@ export default function Contact() {
 										target='_blank'
 										title='Instagram'
 									>
-										<img
-											src='../../../assets/instagram-icono.png'
-											alt='instagram'
-										/>
+										<img src={instagram_img} alt='instagram' />
 										Instagram
 									</a>
 								</li>

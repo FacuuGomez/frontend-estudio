@@ -4,6 +4,10 @@ import { Link, useLocation } from 'react-router-dom';
 import Nav from '../../components/Nav/Nav.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 
+import judge from '../../../assets/judge.svg';
+import worker from '../../../assets/worker.svg';
+import family from '../../../assets/family.svg';
+
 import './Areas.css';
 
 export default function Areas() {
@@ -52,13 +56,13 @@ export default function Areas() {
 								</p>
 							</div>
 
-							<img src='../../../assets/judge.svg' alt='penal' />
+							<img src={judge} alt='penal' />
 						</div>
 					</section>
 
 					<section id='laboral'>
 						<div className='cover_info'>
-							<img src='../../../assets/worker.svg' alt='laboral' />
+							<img src={worker} alt='laboral' />
 
 							<div className='cover_text'>
 								<h3>Laboral</h3>
@@ -103,7 +107,7 @@ export default function Areas() {
 								</p>
 							</div>
 
-							<img src='../../../assets/family.svg' alt='familia' />
+							<img src={family} alt='familia' />
 						</div>
 					</section>
 				</div>

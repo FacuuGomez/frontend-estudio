@@ -7,6 +7,9 @@ import Contact from '../../components/Contact/Contact.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 
 import team_work from '../../../assets/team-work.svg';
+import martillo from '../../../assets/martillo.png';
+import balanza from '../../../assets/balanza.png';
+import anillos from '../../../assets/anillos-de-boda.png';
 
 import './Home.css';
 
@@ -76,7 +79,7 @@ export default function Home() {
 						<div className='cards-areas'>
 							<div className='card-area penal'>
 								<div className='icono'>
-									<img src='../../../assets/martillo.png' alt='martillo' />
+									<img src={martillo} alt='martillo' />
 								</div>
 
 								<h3>Derecho Penal</h3>
@@ -96,7 +99,7 @@ export default function Home() {
 
 							<div className='card-area laboral'>
 								<div className='icono'>
-									<img src='../../../assets/balanza.png' alt='balanza' />
+									<img src={balanza} alt='balanza' />
 								</div>
 								<h3>Derecho Laboral</h3>
 
@@ -136,10 +139,7 @@ export default function Home() {
 
 							<div className='card-area civil'>
 								<div className='icono'>
-									<img
-										src='../../../assets/anillos-de-boda.png'
-										alt='anillos'
-									/>
+									<img src={anillos} alt='anillos' />
 								</div>
 
 								<h3>Derecho civil y comercial</h3>

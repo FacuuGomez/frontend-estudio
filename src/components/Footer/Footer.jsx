@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo_light from '../../../assets/logo-final-light.png';
+import phone_light from '../../../assets/phone-icon-light.png';
+import email_light from '../../../assets/email-icon-light.png';
+import whatsapp_light from '../../../assets/whatsapp-icon-light.png';
+import facebook_light from '../../../assets/facebook-icon-light.png';
+import instagram_light from '../../../assets/instagram-icon-light.png';
+
 import './Footer.css';
 
 export default function footer() {
@@ -16,10 +23,7 @@ export default function footer() {
 				<div className='cover_footer'>
 					<div className='cards'>
 						<div className='card img_card'>
-							<img
-								src='../../../assets/logo-final-light.png'
-								alt='estudio jurídico'
-							/>
+							<img src={logo_light} alt='estudio jurídico' />
 						</div>
 
 						<div className='card areas_card'>
@@ -49,7 +53,7 @@ export default function footer() {
 
 							<ul>
 								<li>
-									<img src='../../../assets/phone-icon-light.png' alt='phone' />
+									<img src={phone_light} alt='phone' />
 									<span></span>
 									4441 - 8678
 								</li>
@@ -59,10 +63,7 @@ export default function footer() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<img
-											src='../../../assets/email-icon-light.png'
-											alt='email'
-										/>
+										<img src={email_light} alt='email' />
 										martinezojedayasoc@gmail.com
 									</a>
 								</li>
@@ -76,10 +77,7 @@ export default function footer() {
 											target='_blank'
 											title='Whatsapp'
 										>
-											<img
-												src='../../../assets/whatsapp-icon-light.png'
-												alt='Whatsapp'
-											/>
+											<img src={whatsapp_light} alt='Whatsapp' />
 										</a>
 									</li>
 									<li>
@@ -88,10 +86,7 @@ export default function footer() {
 											target='_blank'
 											title='Facebook'
 										>
-											<img
-												src='../../../assets/facebook-icon-light.png'
-												alt='Facebook'
-											/>
+											<img src={facebook_light} alt='Facebook' />
 										</a>
 									</li>
 									<li>
@@ -100,10 +95,7 @@ export default function footer() {
 											target='_blank'
 											title='Instagram'
 										>
-											<img
-												src='../../../assets/instagram-icon-light.png'
-												alt='Instagram'
-											/>
+											<img src={instagram_light} alt='Instagram' />
 										</a>
 									</li>
 								</ul>
@@ -129,7 +121,6 @@ export default function footer() {
 								<p>Calle 26 Nº545, Gral. Pico, La Pampa</p>
 								<p>02302-323641</p>
 
-
 								<iframe
 									src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8436114703663!2d-63.75478882543033!3d-35.65622451384127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c37d592b74ec9d%3A0x46cf814609ecbfc3!2sC.%2026%20545%2C%20Gral.%20Pico%2C%20La%20Pampa!5e0!3m2!1ses!2sar!4v1685559563647!5m2!1ses!2sar'
 									loading='lazy'
@@ -139,7 +130,6 @@ export default function footer() {
 							<div className='ubi'>
 								<p>Bv. 25 de Mayo N°101, Quemú-Quemú, La Pampa</p>
 								<p>2302-454512</p>
-
 
 								<iframe
 									src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8436114703663!2d-63.75478882543033!3d-35.65622451384127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c37d592b74ec9d%3A0x46cf814609ecbfc3!2sC.%2026%20545%2C%20Gral.%20Pico%2C%20La%20Pampa!5e0!3m2!1ses!2sar!4v1685559563647!5m2!1ses!2sar'
