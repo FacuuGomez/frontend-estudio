@@ -41,6 +41,12 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	height: 270px;
+	transition: height 0.2s ease;
+}
+
+.login_form.active {
+	height: 340px;
 }
 
 .login_form h2 {
@@ -90,7 +96,8 @@
 	transition: 0.5s;
 }
 
-.input_box input:focus ~ label {
+.input_box input:focus ~ label,
+.input_box input:valid ~ label {
 	top: -2px;
 }
 
