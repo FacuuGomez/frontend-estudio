@@ -132,7 +132,7 @@ export default function footer() {
 								<p>2302-454512</p>
 
 								<iframe
-									src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8436114703663!2d-63.75478882543033!3d-35.65622451384127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c37d592b74ec9d%3A0x46cf814609ecbfc3!2sC.%2026%20545%2C%20Gral.%20Pico%2C%20La%20Pampa!5e0!3m2!1ses!2sar!4v1685559563647!5m2!1ses!2sar'
+									src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.5526028440445!2d-63.56897842540428!3d-36.05562333561846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c3a777db3bfc37%3A0xbd0ea811975d2ac6!2s25%20de%20Mayo%20101%2C%20Quem%C3%BA%20Quem%C3%BA%2C%20La%20Pampa!5e0!3m2!1ses-419!2sar!4v1699559402847!5m2!1ses-419!2sar'
 									loading='lazy'
 								></iframe>
 							</div>
